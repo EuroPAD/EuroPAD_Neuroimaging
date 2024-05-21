@@ -1,0 +1,1350 @@
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/distance.py:158: RuntimeWarning: divide by zero encountered in divide
+  efficiency = np.mean(1 / Dv)
+/home/radv/llorenzini/.conda/envs/luigi/lib/python3.10/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/scripts/multimodal_MRI_processing/MIND/Graph/extract_graphs.py:274: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  glob_DF = pd.concat([glob_DF, globsubdf])
+/home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/scripts/multimodal_MRI_processing/MIND/Graph/extract_graphs.py:278: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  rsnstrength = pd.concat([rsnstrength, rsnstrsubdf])
+/home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/scripts/multimodal_MRI_processing/MIND/Graph/extract_graphs.py:282: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  localstrength = pd.concat([localstrength, lclstrsubdf])
+/home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/scripts/multimodal_MRI_processing/MIND/Graph/extract_graphs.py:286: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  localbtw = pd.concat([localbtw, btwsubdf])
+/home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/scripts/multimodal_MRI_processing/MIND/Graph/extract_graphs.py:290: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  localclust = pd.concat([localclust, clstsubdf])
+/home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/scripts/multimodal_MRI_processing/MIND/Graph/extract_graphs.py:294: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  localpart = pd.concat([localpart, pcsubdf])
+/home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/scripts/multimodal_MRI_processing/MIND/Graph/extract_graphs.py:298: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  richclub = pd.concat([richclub, rcsubdf])
+sub-012EPAD25363_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-012EPAD25363_MIND-Schaefer100Parcels7Networks.csv
+sub-012EPAD25365_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-012EPAD25365_MIND-Schaefer100Parcels7Networks.csv
+sub-012EPAD25401_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-012EPAD25401_MIND-Schaefer100Parcels7Networks.csv
+sub-012EPAD25408_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-012EPAD25408_MIND-Schaefer100Parcels7Networks.csv
+sub-012EPAD25417_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-012EPAD25417_MIND-Schaefer100Parcels7Networks.csv
+sub-012EPAD25478_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-012EPAD25478_MIND-Schaefer100Parcels7Networks.csv
+sub-012EPAD25486_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-012EPAD25486_MIND-Schaefer100Parcels7Networks.csv
+sub-012EPAD25502_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-012EPAD25502_MIND-Schaefer100Parcels7Networks.csv
+sub-012EPAD25505_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-012EPAD25505_MIND-Schaefer100Parcels7Networks.csv
+sub-012EPAD25526_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-012EPAD25526_MIND-Schaefer100Parcels7Networks.csv
+sub-014EPAD24031_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-014EPAD24031_MIND-Schaefer100Parcels7Networks.csv
+sub-014EPAD24065_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-014EPAD24065_MIND-Schaefer100Parcels7Networks.csv
+sub-014EPAD24133_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-014EPAD24133_MIND-Schaefer100Parcels7Networks.csv
+sub-014EPAD24911_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-014EPAD24911_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD23519_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD23519_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD23615_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD23615_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD23628_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD23628_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD23661_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD23661_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD23694_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD23694_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD23732_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD23732_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD23845_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD23845_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD23949_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD23949_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24003_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24003_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24017_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24017_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24025_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24025_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24041_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24041_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24047_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24047_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24051_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24051_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24070_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24070_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24090_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24090_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24092_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24092_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24107_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24107_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24110_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24110_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24117_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24117_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24131_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24131_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24135_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24135_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24136_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24136_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24139_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24139_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24142_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24142_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24158_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24158_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24163_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24163_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24175_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24175_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24183_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24183_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24185_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24185_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24194_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24194_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24204_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24204_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24214_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24214_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24244_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24244_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24278_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24278_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24282_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24282_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24295_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24295_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24308_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24308_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24319_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24319_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24400_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24400_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24412_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24412_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24460_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24460_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24470_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24470_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24477_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24477_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24482_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24482_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24493_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24493_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24495_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24495_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24499_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24499_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24516_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24516_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24521_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24521_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24604_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24604_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24647_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24647_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24670_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24670_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24704_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24704_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24713_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24713_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24776_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24776_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24783_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24783_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24808_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24808_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24824_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24824_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24826_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24826_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24835_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24835_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24874_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24874_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24909_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24909_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24949_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24949_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD24975_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD24975_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25032_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25032_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25045_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25045_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25073_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25073_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25138_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25138_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25161_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25161_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25175_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25175_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25191_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25191_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25204_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25204_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25219_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25219_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25221_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25221_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25238_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25238_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25245_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25245_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25275_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25275_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25284_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25284_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25293_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25293_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25296_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25296_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25312_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25312_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25341_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25341_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25353_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25353_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25415_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25415_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25425_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25425_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25454_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25454_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25463_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25463_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25479_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25479_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25485_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25485_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25510_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25510_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25548_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25548_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25564_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25564_MIND-Schaefer100Parcels7Networks.csv
+sub-015EPAD25581_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-015EPAD25581_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD23577_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD23577_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD23579_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD23579_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD23592_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD23592_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD23681_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD23681_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD23690_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD23690_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD23729_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD23729_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD23989_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD23989_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24068_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24068_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24095_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24095_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24181_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24181_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24199_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24199_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24288_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24288_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24344_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24344_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24366_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24366_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24380_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24380_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24415_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24415_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24436_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24436_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24503_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24503_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24569_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24569_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24572_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24572_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24586_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24586_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24627_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24627_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24632_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24632_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24652_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24652_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24695_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24695_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24699_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24699_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24727_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24727_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24739_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24739_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24790_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24790_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24816_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24816_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24855_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24855_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24879_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24879_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24962_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24962_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD24982_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD24982_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD25009_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD25009_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD25020_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD25020_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD25043_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD25043_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD25072_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD25072_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD25201_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD25201_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD25270_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD25270_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD25285_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD25285_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD25288_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD25288_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD25308_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD25308_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD25340_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD25340_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD25352_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD25352_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD25488_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD25488_MIND-Schaefer100Parcels7Networks.csv
+sub-016EPAD25509_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-016EPAD25509_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24000_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24000_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24004_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24004_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24048_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24048_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24053_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24053_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24073_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24073_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24179_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24179_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24186_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24186_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24245_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24245_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24328_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24328_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24365_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24365_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24375_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24375_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24444_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24444_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24447_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24447_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24524_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24524_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24544_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24544_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24558_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24558_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24578_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24578_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24592_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24592_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24622_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24622_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24645_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24645_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24653_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24653_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24701_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24701_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24889_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24889_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24900_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24900_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24907_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24907_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24920_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24920_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD24999_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD24999_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD25015_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD25015_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD25100_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD25100_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD25105_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD25105_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD25136_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD25136_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD25192_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD25192_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD25250_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD25250_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD25283_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD25283_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD25310_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD25310_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD25355_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD25355_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD25383_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD25383_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD25428_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD25428_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD25442_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD25442_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD25460_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD25460_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD25462_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD25462_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD25501_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD25501_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD25508_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD25508_MIND-Schaefer100Parcels7Networks.csv
+sub-017EPAD25552_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-017EPAD25552_MIND-Schaefer100Parcels7Networks.csv
+sub-018EPAD23589_MIND-Schaefer100Parcels7Networks.csv
+Now processing /home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/MIND/sub-018EPAD23589_MIND-Schaefer100Parcels7Networks.csv
+
+ Saving Group Datasets

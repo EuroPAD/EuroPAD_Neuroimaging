@@ -1,0 +1,39 @@
+{
+  "name": "dhollander_ss3t_gqi",
+  "space": "T1w",
+  "atlases": [ ],
+  "anatomical": [ ],
+  "nodes": [
+    {
+      "name": "ss3t_csd",
+      "software": "MRTrix3",
+      "action": "csd",
+      "output_suffix": "ss3tcsd",
+      "input": "qsiprep",
+      "parameters": {
+        "mtnormalize": true,
+        "response": {
+          "algorithm": "dhollander"
+        },
+        "fod": {
+          "algorithm": "ss3t"
+        }
+      }
+    },
+    {
+      "name": "dsistudio_gqi",
+      "software": "DSI Studio",
+      "action": "reconstruction",
+      "input": "qsiprep",
+      "output_suffix": "gqi",
+      "parameters": {"method": "gqi"}
+    },
+    {
+      "name": "scalar_export",
+      "software": "DSI Studio",
+      "action": "export",
+      "input": "dsistudio_gqi",
+      "output_suffix": "gqiscalar"
+    }
+  ]
+}
