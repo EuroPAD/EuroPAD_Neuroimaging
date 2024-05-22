@@ -1,44 +1,46 @@
 #!/bin/bash
+# Script to extract the Gray-Matter White-Matter tissue contrast from FreeSurfer
+# Bash Dependencies:
+module load FreeSurfer/7.1.1-centos8_x86_64
 
-module load FreeSurfer
-export SUBJECTS_DIR=/data/radv/radG/RAD/share/AMYPAD/derivatives/FreeSurfer # FreeSurfer directory
-sub_dir=/data/radv/radG/RAD/share/AMYPAD/derivatives/FreeSurfer/
+codedir=$(dirname $(realpath $BASH_SOURCE)) # location of script
+studydir=$(realpath $(echo $codedir/../../..)) # location of BIDS directory
+atlasname=(aparc Schaefer2018_100Parcels_7Networks_order) # name of atlas file here
 
-sub=sub-010AMYPAD00001_ses-05
+export SUBJECTS_DIR=$studydir/derivatives/freesurfer-v7.1.1 # FreeSurfer directory
+sub_dir=$studydir/derivatives/freesurfer-v7.1.1/
 
-	# compute white/gray contrast
-	#pctsurfcon --s "$sub" --gm-proj-abs 1 --wm-proj-abs 1 --b w-g.pct.1
-	pctsurfcon --s "$sub" --gm-proj-frac 0.35 --b w-g.pct --nocleanup
 
-	# apply smoothing
-	#mris_fwhm --i /usr/local/freesurfer/subjects/"$sub"/surf/lh.w-g.pct.1.mgh --fwhm 30 --smooth-only --o /usr/local/freesurfer/subjects/"$sub"/surf/lh.w-g.pct.1.smoothed.mgh --s "$sub" --hemi lh
-	#mris_fwhm --i /usr/local/freesurfer/subjects/"$sub"/surf/rh.w-g.pct.1.mgh --fwhm 30 --smooth-only --o /usr/local/freesurfer/subjects/"$sub"/surf/rh.w-g.pct.1.smoothed.mgh --s "$sub" --hemi rh
-	mris_fwhm --i $sub_dir"$sub"/surf/lh.gm.mgh --fwhm 30 --smooth-only --o $sub_dir"$sub"/surf/lh.gm.smoothed.mgh --s "$sub" --hemi lh
-	mris_fwhm --i $sub_dir"$sub"/surf/rh.gm.mgh --fwhm 30 --smooth-only --o $sub_dir"$sub"/surf/rh.gm.smoothed.mgh --s "$sub" --hemi rh
-	mris_fwhm --i $sub_dir"$sub"/surf/lh.wm.mgh --fwhm 30 --smooth-only --o $sub_dir"$sub"/surf/lh.wm.smoothed.mgh --s "$sub" --hemi lh
-	mris_fwhm --i $sub_dir"$sub"/surf/rh.wm.mgh --fwhm 30 --smooth-only --o $sub_dir"$sub"/surf/rh.wm.smoothed.mgh --s "$sub" --hemi rh	
+for atlas in ${atlasname[@]}; do
+	for sub in $(ls -d $SUBJECTS_DIR/sub*_ses*); do
+		sub=$(basename ${sub})
+		
+		printf "Extracting GWC from atlas $atlas in subject $sub...\n\n"
+		mri_vol2surf --mov $sub_dir"$sub"/mri/rawavg.mgz --hemi lh --noreshape --interp trilinear --projdist -1 --o $sub_dir"$sub"/surf/lh.wm.mgh --regheader $sub --cortex
 
-	# extract stats for all parcellations
-	# Desikan-Killiany
-	#mri_segstats --in /usr/local/freesurfer/subjects/"$sub"/surf/lh.w-g.pct.1.smoothed.mgh --annot "$sub" lh aparc --sum /usr/local/freesurfer/subjects/"$sub"/stats/lh.w-g.pct.1.aparc.smoothed.stats
-	#mri_segstats --in /usr/local/freesurfer/subjects/"$sub"/surf/rh.w-g.pct.1.smoothed.mgh --annot "$sub" rh aparc --sum /usr/local/freesurfer/subjects/"$sub"/stats/rh.w-g.pct.1.aparc.smoothed.stats
-	mri_segstats --in $sub_dir"$sub"/surf/lh.gm.smoothed.mgh --annot "$sub" lh aparc --sum $sub_dir"$sub"/stats/lh.gm.aparc.smoothed.stats
-	mri_segstats --in $sub_dir"$sub"/surf/rh.gm.smoothed.mgh --annot "$sub" rh aparc --sum $sub_dir"$sub"/stats/rh.gm.aparc.smoothed.stats
-	mri_segstats --in $sub_dir"$sub"/surf/lh.wm.smoothed.mgh --annot "$sub" lh aparc --sum $sub_dir"$sub"/stats/lh.wm.aparc.smoothed.stats
-	mri_segstats --in $sub_dir"$sub"/surf/rh.wm.smoothed.mgh --annot "$sub" rh aparc --sum $sub_dir"$sub"/stats/rh.wm.aparc.smoothed.stats
+		mri_vol2surf --mov $sub_dir"$sub"/mri/rawavg.mgz --hemi lh --noreshape --interp trilinear --o $sub_dir"$sub"/surf/lh.gm.mgh --projfrac 0.35 --regheader $sub --cortex
 
-	# Destrieux
-	#mri_segstats --in /usr/local/freesurfer/subjects/"$sub"/surf/lh.w-g.pct.1.smoothed.mgh --annot "$sub" lh aparc.a2009s --sum /usr/local/freesurfer/subjects/"$sub"/stats/lh.w-g.pct.1.aparc.a2009s.smoothed.stats
-	#mri_segstats --in /usr/local/freesurfer/subjects/"$sub"/surf/rh.w-g.pct.1.smoothed.mgh --annot "$sub" rh aparc.a2009s --sum /usr/local/freesurfer/subjects/"$sub"/stats/rh.w-g.pct.1.aparc.a2009s.smoothed.stats
+		mris_fwhm --i $sub_dir"$sub"/surf/lh.gm.mgh --fwhm 30 --smooth-only --o $sub_dir"$sub"/surf/lh.gm.smoothed.mgh --s "$sub" --hemi lh
 
-	# DKT40
-	#mri_segstats --in /usr/local/freesurfer/subjects/"$sub"/surf/lh.w-g.pct.1.smoothed.mgh --annot "$sub" lh aparc.DKTatlas --sum /usr/local/freesurfer/subjects/"$sub"/stats/lh.w-g.pct.1.aparc.DKTatlas.smoothed.stats
-	#mri_segstats --in /usr/local/freesurfer/subjects/"$sub"/surf/rh.w-g.pct.1.smoothed.mgh --annot "$sub" rh aparc.DKTatlas --sum /usr/local/freesurfer/subjects/"$sub"/stats/rh.w-g.pct.1.aparc.DKTatlas.smoothed.stats
+		mris_fwhm --i $sub_dir"$sub"/surf/lh.wm.mgh --fwhm 30 --smooth-only --o $sub_dir"$sub"/surf/lh.wm.smoothed.mgh --s "$sub" --hemi lh
 
-	# Whole-brain
-	#mri_segstats --in /usr/local/freesurfer/subjects/"$sub"/surf/lh.w-g.pct.1.smoothed.mgh --slabel "$sub" lh /usr/local/freesurfer/subjects/"$sub"/label/lh.cortex --id 1 --sum /usr/local/freesurfer/subjects/"$sub"/stats/lh.w-g.pct.1.wb.smoothed.stats
-	#mri_segstats --in /usr/local/freesurfer/subjects/"$sub"/surf/rh.w-g.pct.1.smoothed.mgh --slabel "$sub" rh /usr/local/freesurfer/subjects/"$sub"/label/rh.cortex --id 1 --sum /usr/local/freesurfer/subjects/"$sub"/stats/rh.w-g.pct.1.wb.smoothed.stats
-	mri_segstats --in $sub_dir"$sub"/surf/lh.gm.smoothed.mgh --slabel "$sub" lh $sub_dir"$sub"/label/lh.cortex --id 1 --sum $sub_dir"$sub"/stats/lh.gm.wb.smoothed.stats
-	mri_segstats --in $sub_dir"$sub"/surf/rh.gm.smoothed.mgh --slabel "$sub" rh $sub_dir"$sub"/label/rh.cortex --id 1 --sum $sub_dir"$sub"/stats/rh.gm.wb.smoothed.stats
-	mri_segstats --in $sub_dir"$sub"/surf/lh.wm.smoothed.mgh --slabel "$sub" lh $sub_dir"$sub"/label/lh.cortex --id 1 --sum $sub_dir"$sub"/stats/lh.wm.wb.smoothed.stats
-	mri_segstats --in $sub_dir"$sub"/surf/rh.wm.smoothed.mgh --slabel "$sub" rh $sub_dir"$sub"/label/rh.cortex --id 1 --sum $sub_dir"$sub"/stats/rh.wm.wb.smoothed.stats
+		mri_concat $sub_dir"$sub"/surf/lh.wm.smoothed.mgh $sub_dir"$sub"/surf/lh.gm.smoothed.mgh --paired-diff-norm --mul 100 --o $sub_dir"$sub"/surf/lh.w-g.pct.smoothed.mgh
+
+		mri_segstats --in $sub_dir"$sub"/surf/lh.w-g.pct.smoothed.mgh --annot $sub lh $atlas --sum $sub_dir"$sub"/stats/lh.w-g.pct.$atlas.smoothed.stats --snr
+
+		mri_vol2surf --mov $sub_dir"$sub"/mri/rawavg.mgz --hemi rh --noreshape --interp trilinear --projdist -1 --o $sub_dir"$sub"/surf/rh.wm.mgh --regheader $sub --cortex
+
+		mri_vol2surf --mov $sub_dir"$sub"/mri/rawavg.mgz --hemi rh --noreshape --interp trilinear --o $sub_dir"$sub"/surf/rh.gm.mgh --projfrac 0.35 --regheader $sub --cortex
+
+		mris_fwhm --i $sub_dir"$sub"/surf/rh.gm.mgh --fwhm 30 --smooth-only --o $sub_dir"$sub"/surf/rh.gm.smoothed.mgh --s "$sub" --hemi rh
+
+		mris_fwhm --i $sub_dir"$sub"/surf/rh.wm.mgh --fwhm 30 --smooth-only --o $sub_dir"$sub"/surf/rh.wm.smoothed.mgh --s "$sub" --hemi rh
+
+		mri_concat $sub_dir"$sub"/surf/rh.wm.smoothed.mgh $sub_dir"$sub"/surf/rh.gm.smoothed.mgh --paired-diff-norm --mul 100 --o $sub_dir"$sub"/surf/rh.w-g.pct.smoothed.mgh
+
+		mri_segstats --in $sub_dir"$sub"/surf/rh.w-g.pct.smoothed.mgh --annot $sub rh $atlas --sum $sub_dir"$sub"/stats/rh.w-g.pct.$atlas.smoothed.stats --snr
+
+	done
+done
+
+printf "Script finished!\n"
