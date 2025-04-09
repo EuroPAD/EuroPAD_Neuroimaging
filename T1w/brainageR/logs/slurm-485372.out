@@ -1,0 +1,118 @@
+/scratch/radv/scaneva/brainageEuropad/EuroPAD_T1s/
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2022 The MathWorks, Inc.
+             R2022b Update 2 (9.13.0.2105380) 64-bit (glnxa64)
+                              October 26, 2022
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[Warning: FSL toolbox not found:
+/opt/aumc-apps/fsl/fsl-6.0.7.6/share/fsl/bin/fsl/etc/matlab] 
+[> In startup (line 82)
+In run (line 91)
+In matlabrc (line 54)] 
+
+-----------------------------------------------------------------------------------------------------
+MATLAB Version: 9.13.0.2105380 (R2022b) Update 2
+MATLAB License Number: 1096141
+Operating System: Linux 4.18.0-553.8.1.el8_10.x86_64 #1 SMP Fri Jun 14 03:19:37 EDT 2024 x86_64
+Java Version: Java 1.8.0_202-b08 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
+-----------------------------------------------------------------------------------------------------
+MATLAB                                                Version 9.13        (R2022b)
+Bioinformatics Toolbox                                Version 4.16.1      (R2022b)
+Computer Vision Toolbox                               Version 10.3        (R2022b)
+Curve Fitting Toolbox                                 Version 3.8         (R2022b)
+Deep Learning Toolbox                                 Version 14.5        (R2022b)
+Global Optimization Toolbox                           Version 4.8         (R2022b)
+Image Processing Toolbox                              Version 11.6        (R2022b)
+MATLAB Compiler                                       Version 8.5         (R2022b)
+Optimization Toolbox                                  Version 9.4         (R2022b)
+Parallel Computing Toolbox                            Version 7.7         (R2022b)
+Signal Processing Toolbox                             Version 9.1         (R2022b)
+Statistics and Machine Learning Toolbox               Version 12.4        (R2022b)
+Wavelet Toolbox                                       Version 6.2         (R2022b)
+
+
+------------------------------------------------------------------------
+12-Aug-2024 19:45:13 - Running job #1
+------------------------------------------------------------------------
+12-Aug-2024 19:45:13 - Running 'Segment'
+
+SPM12: spm_preproc_run (v7408)                     19:45:14 - 12/08/2024
+========================================================================
+Segment /scratch/radv/scaneva/brainageEuropad/EuroPAD_T1s/sub-EPAD03023529_ses-03_T1w.nii,1
+Completed                               :          19:48:15 - 12/08/2024
+12-Aug-2024 19:48:15 - Done    'Segment'
+12-Aug-2024 19:48:15 - Running 'Run Dartel (existing Templates)'
+*** rc1sub-EPAD03023529_ses-03_T1w ***
+1 	404938	0	404938	336.87
+2 	305001	17306.4	322307	122.834
+3 	299406	17111.7	316518	29.4375
+4 	294765	8536.06	303301	125.605
+5 	280860	17435.2	298295	33.7819
+6 	280448	17510.5	297959	21.1062
+7 	278604	8877.71	287481	105.754
+8 	264584	17929.2	282513	31.1278
+9 	264136	18069.9	282206	19.7526
+10 	262668	9280.35	271948	92.4455
+11 	247793	18708.3	266501	31.7524
+12 	246798	19188.6	265987	20.0085
+13 	246430	9928.28	256358	77.2334
+14 	233134	18098.2	251232	29.6951
+15 	231789	18837.3	250626	19.6137
+16 	231559	19547.6	251107	24.8101
+17 	231054	19677.3	250731	17.2438
+18 	230778	19898.4	250676	15.9446
+12-Aug-2024 19:51:13 - Done    'Run Dartel (existing Templates)'
+12-Aug-2024 19:51:13 - Running 'Normalise to MNI Space'
+
+** "u_rc1sub-EPAD03023529_ses-03_T1w" **
+c1sub-EPAD03023529_ses-03_T1w	1,1,1
+c2sub-EPAD03023529_ses-03_T1w	1,1,1
+c3sub-EPAD03023529_ses-03_T1w	1,1,1
+12-Aug-2024 19:51:18 - Done    'Normalise to MNI Space'
+12-Aug-2024 19:51:18 - Running 'Tissue Volumes'
+
+Segmentation files:
+	/scratch/radv/scaneva/brainageEuropad/EuroPAD_T1s/sub-EPAD03023529_ses-03_T1w_seg8.mat
+
+Volumes (litres):
+    0.6375    0.4492    0.3292
+
+12-Aug-2024 19:52:24 - Done    'Tissue Volumes'
+12-Aug-2024 19:52:24 - Done
+
+/home/radv/scaneva/my-scratch/brainageR//software/slicesdir.brainageR: line 151: /opt/aumc-apps/fsl/fsl-6.0.7.6/share/fsl/bin/fsl//bin/remove_ext: Not a directory
+
+/home/radv/scaneva/my-scratch/brainageR//software/slicesdir.brainageR: line 155: /opt/aumc-apps/fsl/fsl-6.0.7.6/share/fsl/bin/fsl//bin/slicer: Not a directory
+/home/radv/scaneva/my-scratch/brainageR//software/slicesdir.brainageR: line 163: /opt/aumc-apps/fsl/fsl-6.0.7.6/share/fsl/bin/fsl//bin/pngappend: Not a directory
+/home/radv/scaneva/my-scratch/brainageR//software/slicesdir.brainageR: line 151: /opt/aumc-apps/fsl/fsl-6.0.7.6/share/fsl/bin/fsl//bin/remove_ext: Not a directory
+
+/home/radv/scaneva/my-scratch/brainageR//software/slicesdir.brainageR: line 155: /opt/aumc-apps/fsl/fsl-6.0.7.6/share/fsl/bin/fsl//bin/slicer: Not a directory
+/home/radv/scaneva/my-scratch/brainageR//software/slicesdir.brainageR: line 163: /opt/aumc-apps/fsl/fsl-6.0.7.6/share/fsl/bin/fsl//bin/pngappend: Not a directory
+/home/radv/scaneva/my-scratch/brainageR//software/slicesdir.brainageR: line 151: /opt/aumc-apps/fsl/fsl-6.0.7.6/share/fsl/bin/fsl//bin/remove_ext: Not a directory
+
+/home/radv/scaneva/my-scratch/brainageR//software/slicesdir.brainageR: line 155: /opt/aumc-apps/fsl/fsl-6.0.7.6/share/fsl/bin/fsl//bin/slicer: Not a directory
+/home/radv/scaneva/my-scratch/brainageR//software/slicesdir.brainageR: line 163: /opt/aumc-apps/fsl/fsl-6.0.7.6/share/fsl/bin/fsl//bin/pngappend: Not a directory
+/home/radv/scaneva/my-scratch/brainageR//software/slicesdir.brainageR: line 151: /opt/aumc-apps/fsl/fsl-6.0.7.6/share/fsl/bin/fsl//bin/remove_ext: Not a directory
+
+/home/radv/scaneva/my-scratch/brainageR//software/slicesdir.brainageR: line 155: /opt/aumc-apps/fsl/fsl-6.0.7.6/share/fsl/bin/fsl//bin/slicer: Not a directory
+/home/radv/scaneva/my-scratch/brainageR//software/slicesdir.brainageR: line 163: /opt/aumc-apps/fsl/fsl-6.0.7.6/share/fsl/bin/fsl//bin/pngappend: Not a directory
+/home/radv/scaneva/my-scratch/brainageR//software/slicesdir.brainageR: line 151: /opt/aumc-apps/fsl/fsl-6.0.7.6/share/fsl/bin/fsl//bin/remove_ext: Not a directory
+
+/home/radv/scaneva/my-scratch/brainageR//software/slicesdir.brainageR: line 155: /opt/aumc-apps/fsl/fsl-6.0.7.6/share/fsl/bin/fsl//bin/slicer: Not a directory
+/home/radv/scaneva/my-scratch/brainageR//software/slicesdir.brainageR: line 163: /opt/aumc-apps/fsl/fsl-6.0.7.6/share/fsl/bin/fsl//bin/pngappend: Not a directory
+/home/radv/scaneva/my-scratch/brainageR//software/slicesdir.brainageR: line 151: /opt/aumc-apps/fsl/fsl-6.0.7.6/share/fsl/bin/fsl//bin/remove_ext: Not a directory
+
+/home/radv/scaneva/my-scratch/brainageR//software/slicesdir.brainageR: line 155: /opt/aumc-apps/fsl/fsl-6.0.7.6/share/fsl/bin/fsl//bin/slicer: Not a directory
+/home/radv/scaneva/my-scratch/brainageR//software/slicesdir.brainageR: line 163: /opt/aumc-apps/fsl/fsl-6.0.7.6/share/fsl/bin/fsl//bin/pngappend: Not a directory
+
+Finished. To view, point your web browser at
+file:/scratch/radv/scaneva/brainageEuropad/EuroPAD_T1s//slicesdir_sub-EPAD03023529_ses-03_T1w.nii/index.html
+Error in library(kernlab) : there is no package called ‘kernlab’
+Execution halted
+mv: cannot stat '/home/radv/scaneva/my-scratch/brainageEuropad/EuroPAD_T1s/sub-EPAD03023529_ses-03_T1w.csv': No such file or directory
+rm: cannot remove '/home/radv/scaneva/my-scratch/brainageEuropad/EuroPAD_T1s/slicesdir_sub-EPAD03023529_ses-03_T1w.nii': Is a directory

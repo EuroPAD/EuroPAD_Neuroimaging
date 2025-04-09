@@ -1,9 +1,9 @@
 #!/bin/bash
-code_dir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EPAD/scripts/multimodal_MRI_processing/MIND
-freesurfer_dir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EPAD/derivatives/FreeSurfer_crossectional
-MIND_dir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EPAD/derivatives/MIND
+code_dir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/code/multimodal_MRI_processing/T1w/MIND/
+freesurfer_dir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/derivatives/freesurfer-v7.1.1/
+MIND_dir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/derivatives/freesurfer-v7.1.1/
 
-module load Anaconda3/2022.05
+module load Anaconda3/2024.02-1
 
 if [ ! -d ${MIND_dir} ]; then
   mkdir -p ${MIND_dir}
@@ -16,10 +16,10 @@ cd ${code_dir}
 
 for subjectname in `ls -d ${freesurfer_dir}/sub-*` ; do
 i="`basename $subjectname`"
-if [ -f ${MIND_dir}/${i}_MIND-Schaefer400Parcels7Networks.csv ]; then
+if [ -f ${MIND_dir}/${i} ]; then
   echo "${i} already OK"
 else
   echo "computing MIND network for ${i}"
-  python3 MIND-networks.py ${freesurfer_dir}/${i} -o ${MIND_dir}
+  python3 networks.py ${freesurfer_dir}/${i} -o ${MIND_dir}
 fi
 done  

@@ -26,17 +26,17 @@ from nilearn import plotting
 # Settings 
 
 # Change here according to the atlas you used for the DR
-atlas = "Yeo17"  # "Smith"
-drfold = "/home/radv/llorenzini/my-rdisk/r-divi/RNG/Projects/ExploreASL/EPAD/derivatives/DualRegression_Yeo17/"
+atlas = "Smith" #Yeo17"  # "Smith"
+drfold = "/home/radv/lpieperhoff/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/derivatives/dualregression-v6.0.7.6/"
 
 if atlas == "Yeo17":
-    atlasfile="/home/radv/llorenzini/my-rdisk/r-divi/RNG/Projects/ExploreASL/EPAD/scripts/multimodal_MRI_processing/atlases/yeo-17-liberal_network_4D_2mm_bin.nii.gz"
+    atlasfile="/home/radv/lpieperhoff/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/code/multimodal_MRI_processing/atlases/yeo-17-liberal_network_4D_2mm_bin.nii.gz"
     thr = 0.99 ## YEO is binary
     rsn = {'rsn_num' : [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],
            'rsn_name' : ['VisCent', 'VisPeri', 'SomMotA', 'SomMotB', 'DorsAttnA', 'DorsAttnB', 'SalVentAttnA', 'SalVenAttnB', 'LimbicB', 'LimbicA', 'ContC', 'ContA', 'ContB',  'TempPar', 'DefaultC', 'DefaultA', 'DefaultB']}
     rsndf = pd.DataFrame(rsn)
 elif   atlas == "Smith":
-    atlasfile="/home/radv/llorenzini/my-rdisk/r-divi/RNG/Projects/ExploreASL/EPAD/scripts/multimodal_MRI_processing/atlases/PNAS_Smith09_rsn10.nii.gz"
+    atlasfile="/home/radv/lpieperhoff/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/code/multimodal_MRI_processing/atlases/PNAS_Smith09_rsn10.nii.gz"
     thr = 3 ## YEO is binary
     rsn = {'rsn_num' : [0,1,2,3,4,5,6,7,8,9],'rsn_name' : ['Vis1', 'Vis2', 'Vis3', 'Def', 'Cereb', 'Somato', 'Audit', 'Exec', 'FPN1', 'FPN2']}
     rsndf = pd.DataFrame(rsn)
@@ -51,8 +51,16 @@ atlas = ants.image_read(atlasfile)
 # Txt
 files = pd.read_csv(os.path.join(drfold, 'fmri_inputs.txt'), header=None)
 files.columns = ['files']
-files['Subject'] = files['files'].str[85:97] ## STUDY SPECIFIC
-files['Ses'] = files['files'].str[98:104] ## STUDY SPECIFIC
+
+def get_13th_part(s): ## STUDY SPECIFIC WHICH / SPLIT IS SUBJECTID AND SES
+    parts = s.split('/')
+    return parts[12]
+files['Subject'] = files['files'].apply(get_13th_part)
+
+def get_14th_part(s):
+    parts = s.split('/')
+    return parts[13]
+files['Ses'] = files['files'].apply(get_14th_part)
 
 files.drop('files', inplace=True, axis=1)
 
@@ -112,7 +120,8 @@ for i in range(len(files)):
     CM_out = CM_out.to_frame().T
 
     # Append
-    betweendf = betweendf.append(CM_out)
+    betweendf = pd.concat([betweendf, CM_out], ignore_index=True)
+    #betweendf.append(CM_out)
 
 betweendf = betweendf.reset_index()
 betweendf = betweendf.drop('index', axis = 1 )

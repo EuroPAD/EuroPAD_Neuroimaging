@@ -19,7 +19,7 @@ module load Anaconda3
 eval "$(conda shell.bash hook)"
 conda activate mario 
 
-python3 ${code_dir}/MIND-networks.py ${freesurfer_dir}/${i} -o ${MIND_dir}
+python3 ${code_dir}/networks.py ${freesurfer_dir}/${i} -o ${MIND_dir}
 
-echo "MIND-network has been computed for ${i}"
+echo "network has been computed for ${i}"
 

@@ -29,11 +29,11 @@ def main():
     features = ['CT','MC','Vol','SD','SA'] 
 
     ## Select which parcellation to use. This has been tested on Desikan Killiany (DK), HCP-Glasser, DK-308 and DK-318 parcellations.
-    parcellation = 'Schaefer2018_400Parcels_7Networks_order' 
+    parcellation = 'aparc' 
 
     ## Returns a dataframe of regions X regions containing the final MIND network.
     MIND = compute_MIND(path_to_surf_dir, features, parcellation) 
-    matrix_filename = "".join([basename(path_to_surf_dir),'_MIND-Schaefer400Parcels7Networks.csv']);
+    matrix_filename = "".join([basename(path_to_surf_dir),'_MIND-aparc.csv']);
     MIND.to_csv(opj(output_dir, matrix_filename), sep=',', header=True, index=True)
     
 # if nothing else has been done yet, call main()    

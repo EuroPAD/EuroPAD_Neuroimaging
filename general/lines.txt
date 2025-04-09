@@ -1,0 +1,2 @@
+files=($(ls -d $fmriprep_store4ever/sub-* | grep -v html))
+for subjectname in `echo "${files[@]:400:800}"`; do

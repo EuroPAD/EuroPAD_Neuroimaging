@@ -12,7 +12,6 @@ import os
 import argparse
 import numpy as np
 import nibabel as nib
-import ants
 
 def main():
 
@@ -20,21 +19,31 @@ def main():
     parser = argparse.ArgumentParser(description="denoise using the ICAAROMA strategy [Pruim2015, Ciric2017] and build functional connectome")
     parser.add_argument ( "fmrifile", help="preprocessed fMRI from fmriprep")
     parser.add_argument ( "-a", "--atlasfile", help="brain parcellation in the same space of fMRI")
+    parser.add_argument ( "-n", "--atlasname", help="atlas name")
     args = parser.parse_args()    
     
     # Define variables
     fmri_filename = args.fmrifile
     atlas_filename = args.atlasfile
-#fmri_filename="/home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/fmriprep/sub-010EPAD24260/ses-01/func/sub-010EPAD24260_ses-01_task-rest_space-MNI152NLin6Asym_desc-smoothAROMAnonaggr_bold.nii.gz"
-#    atlas_filename="/home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/scripts/multimodal_MRI_processing/atlases/schaeffer_100_2mm.nii.gz"
-    from load_confounds import ICAAROMA
-    raw_confounds = ICAAROMA().load(fmri_filename);
+    atlas_name = args.atlasname
+    #fmri_filename="/home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/derivatives/fmriprep/sub-010EPAD24260/ses-01/func/sub-010EPAD24260_ses-01_task-rest_space-MNI152NLin6Asym_desc-preproc_bold.nii.gz"
+    #atlas_filename="/home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/scripts/multimodal_MRI_processing/atlases/schaeffer_100_2mm.nii.gz"
     
+    ## ARMOA ONLY NEEDS TO BE RUN ON NATIVE SPACE (or on MNIlin2009)
+    if "AROMA" in fmri_filename:
+        use_aroma=0
+        
+    else:
+        use_aroma=1
+        from load_confounds import ICAAROMA
+        raw_confounds = ICAAROMA().load(fmri_filename);
+        confounds = raw_confounds[4:]
+        
+        
     # Drop first 4 timepoints from both image and confounds (non steady-state volumes)
     from nilearn import image as nimg       
     raw_func_img = nimg.load_img(fmri_filename)
     func_img = raw_func_img.slicer[:,:,:,4:]
-    confounds = raw_confounds[4:]
 
       
     #READ TR
@@ -52,12 +61,11 @@ def main():
     # Extract signals on a parcellation defined by labels and build functional connectome
     # -----------------------------------------------------
     
-    print ("\nbuilding functional connectome for %s\n" % args.atlasfile)
+    #print ("\nbuilding functional connectome for %s\n" % atlas_name)
 
-    print ("\nbuilding functional connectome for %s\n" % args.atlasfile)
-    csv_basename = os.path.basename (fmri_filename).replace (".nii.gz","_schaeffer400_connectome.csv") 
+    csv_basename = os.path.basename (fmri_filename).replace (".nii.gz","_" + atlas_name + "_connectome.csv") 
     csv_filename = os.path.abspath (fmri_filename).replace (os.path.basename (fmri_filename), csv_basename)
-    csv_basename_fisher_z = os.path.basename (fmri_filename).replace (".nii.gz","schaeffer400__connectome_fisher_z.csv") 
+    csv_basename_fisher_z = os.path.basename (fmri_filename).replace (".nii.gz","_" + atlas_name + "_connectome_fisher_z.csv") 
     csv_filename_fisher_z = os.path.abspath (fmri_filename).replace (os.path.basename (fmri_filename), csv_basename_fisher_z)
     
     
@@ -69,7 +77,11 @@ def main():
         # Use the NiftiLabelsMasker to compute timeseries for each parcel
         from nilearn.input_data import NiftiLabelsMasker
         masker = NiftiLabelsMasker(labels_img=atlas_filename, standardize=True, detrend=False, low_pass=0.08, t_r=tr)
-        time_series = masker.fit_transform(func_img, confounds=confounds)
+#       
+        if use_aroma:
+            time_series = masker.fit_transform(func_img, confounds=confounds) 
+        else:
+            time_series = masker.fit_transform(func_img)
 
         # compute the correlation matrix
         from nilearn.connectome import ConnectivityMeasure
@@ -85,11 +97,13 @@ def main():
         # save plot of correlation matrix
         from nilearn import plotting
         plot = plotting.plot_matrix(correlation_matrix, reorder=False)
-        plot_basename = os.path.basename (fmri_filename).replace (".nii.gz","_schaeffer400_connectome_figure.jpg")
+        plot_basename = os.path.basename (fmri_filename).replace (".nii.gz","_" + atlas_name + "_connectome_figure.jpg")
         plot_filename = os.path.abspath (fmri_filename).replace (os.path.basename (fmri_filename), plot_basename)
         plot.figure.savefig(plot_filename, dpi=300)
-
-
+        
+    else:
+        print("Connectome already computed for file", fmri_filename, "with atlas ", atlas_name)
+            
 # if nothing else has been done yet, call main()    
 if __name__ == '__main__': 
     main()

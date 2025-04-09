@@ -1,7 +1,7 @@
-basedir=/home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/ # Study dir
-fadir=${basedir}/derivatives/ExploreASL/analysis # where the subj folder live
+basedir=/home/radv/llorenzini/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/ # Study dir
+fadir=${basedir}/derivatives/qsirecon-v0.19.0 # where the subj folder live
 tbssdir=${basedir}/derivatives/TBSS
-mode="ExploreASL" # exploreASL or qsirecon?
+mode="qsirecon" # exploreASL or qsirecon?
 
 
 if [[ ! -d $tbssdir ]]; then 
@@ -22,7 +22,7 @@ fi
 #Find FA files 
 # Only baseline!!
 if [[ $mode == "qsirecon" ]]; then 
-	for fafile in $(ls $fadir/sub-*/ses-01/dwi/*desc-dti_fa_gqiscalar.nii.gz); do
+	for fafile in $(ls $fadir/sub-*/ses*/dwi/*desc-dti_fa_gqiscalar.nii.gz); do
 
 	 	echo $fafile
 		cp $fafile $tbssdir

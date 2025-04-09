@@ -16,12 +16,12 @@ cd ${code_dir}
 
 for subjectname in `ls -d ${freesurfer_dir}/sub-*` ; do
 i="`basename $subjectname`"
-if [ -f ${MIND_dir}/${i}_MIND-Schaefer400Parcels7Networks.csv ]; then
+if [ -f ${MIND_dir}/${i}_Schaefer400Parcels7Networks ]; then
   echo "${i} already OK"
 else
   echo "computing MIND network for ${i}"
   	
-	sbatch MIND-networks_slurm.sh ${i} ${MIND_dir} ${freesurfer_dir} ${code_dir}
+	sbatch networks_slurm.sh ${i} ${MIND_dir} ${freesurfer_dir} ${code_dir}
 	while [ $(squeue -u $(whoami) | wc -l) == 16 ]; do
 		sleep 5;
 	done

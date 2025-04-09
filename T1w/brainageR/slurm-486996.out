@@ -1,0 +1,101 @@
+/scratch/radv/scaneva/brainageEuropad/EuroPAD_T1s/
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2022 The MathWorks, Inc.
+             R2022b Update 2 (9.13.0.2105380) 64-bit (glnxa64)
+                              October 26, 2022
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[Warning: FSL toolbox not found:
+/opt/aumc-apps/fsl/fsl-6.0.7.6/share/fsl/etc/matlab] 
+[> In startup (line 82)
+In run (line 91)
+In matlabrc (line 54)] 
+
+-----------------------------------------------------------------------------------------------------
+MATLAB Version: 9.13.0.2105380 (R2022b) Update 2
+MATLAB License Number: 1096141
+Operating System: Linux 4.18.0-553.8.1.el8_10.x86_64 #1 SMP Fri Jun 14 03:19:37 EDT 2024 x86_64
+Java Version: Java 1.8.0_202-b08 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
+-----------------------------------------------------------------------------------------------------
+MATLAB                                                Version 9.13        (R2022b)
+Bioinformatics Toolbox                                Version 4.16.1      (R2022b)
+Computer Vision Toolbox                               Version 10.3        (R2022b)
+Curve Fitting Toolbox                                 Version 3.8         (R2022b)
+Deep Learning Toolbox                                 Version 14.5        (R2022b)
+Global Optimization Toolbox                           Version 4.8         (R2022b)
+Image Processing Toolbox                              Version 11.6        (R2022b)
+MATLAB Compiler                                       Version 8.5         (R2022b)
+Optimization Toolbox                                  Version 9.4         (R2022b)
+Parallel Computing Toolbox                            Version 7.7         (R2022b)
+Signal Processing Toolbox                             Version 9.1         (R2022b)
+Statistics and Machine Learning Toolbox               Version 12.4        (R2022b)
+Wavelet Toolbox                                       Version 6.2         (R2022b)
+
+
+------------------------------------------------------------------------
+14-Aug-2024 14:23:59 - Running job #1
+------------------------------------------------------------------------
+14-Aug-2024 14:23:59 - Running 'Segment'
+
+SPM12: spm_preproc_run (v7408)                     14:23:59 - 14/08/2024
+========================================================================
+Segment /scratch/radv/scaneva/brainageEuropad/EuroPAD_T1s/sub-EPAD03023620_ses-03_T1w.nii,1
+Completed                               :          14:26:44 - 14/08/2024
+14-Aug-2024 14:26:44 - Done    'Segment'
+14-Aug-2024 14:26:45 - Running 'Run Dartel (existing Templates)'
+*** rc1sub-EPAD03023620_ses-03_T1w ***
+1 	383800	0	383800	327.176
+2 	289627	16224	305851	115.595
+3 	277006	20235.7	297242	36.925
+4 	271469	10773.1	282242	125.347
+5 	256704	20159.7	276864	34.1948
+6 	255799	20700	276499	18.9756
+7 	254115	10526.1	264641	102.473
+8 	240483	19280	259763	29.1279
+9 	239800	19624.8	259425	16.2584
+10 	238542	10021.4	248563	88.5583
+11 	224822	18794.7	243617	28.6634
+12 	224055	19131.2	243186	16.6765
+13 	223964	9870.19	233834	74.0782
+14 	211579	17484.7	229064	26.5229
+15 	210285	18216.1	228501	16.2432
+16 	210131	18874.8	229006	22.4785
+17 	209599	19030.6	228630	13.718
+18 	209296	19265.7	228562	12.3107
+14-Aug-2024 14:29:20 - Done    'Run Dartel (existing Templates)'
+14-Aug-2024 14:29:20 - Running 'Normalise to MNI Space'
+
+** "u_rc1sub-EPAD03023620_ses-03_T1w" **
+c1sub-EPAD03023620_ses-03_T1w	1,1,1
+c2sub-EPAD03023620_ses-03_T1w	1,1,1
+c3sub-EPAD03023620_ses-03_T1w	1,1,1
+14-Aug-2024 14:29:24 - Done    'Normalise to MNI Space'
+14-Aug-2024 14:29:24 - Running 'Tissue Volumes'
+
+Segmentation files:
+	/scratch/radv/scaneva/brainageEuropad/EuroPAD_T1s/sub-EPAD03023620_ses-03_T1w_seg8.mat
+
+Volumes (litres):
+    0.6144    0.4319    0.2266
+
+14-Aug-2024 14:30:28 - Done    'Tissue Volumes'
+14-Aug-2024 14:30:28 - Done
+
+/scratch/radv/scaneva/brainageEuropad/EuroPAD_T1s//c1sub-EPAD03023620_ses-03_T1w
+/scratch/radv/scaneva/brainageEuropad/EuroPAD_T1s//c2sub-EPAD03023620_ses-03_T1w
+/scratch/radv/scaneva/brainageEuropad/EuroPAD_T1s//c3sub-EPAD03023620_ses-03_T1w
+/scratch/radv/scaneva/brainageEuropad/EuroPAD_T1s//smwc1sub-EPAD03023620_ses-03_T1w
+/scratch/radv/scaneva/brainageEuropad/EuroPAD_T1s//smwc2sub-EPAD03023620_ses-03_T1w
+/scratch/radv/scaneva/brainageEuropad/EuroPAD_T1s//smwc3sub-EPAD03023620_ses-03_T1w
+
+Finished. To view, point your web browser at
+file:/scratch/radv/scaneva/brainageEuropad/EuroPAD_T1s//slicesdir_sub-EPAD03023620_ses-03_T1w.nii/index.html
+[1] "loading nifti data Wed Aug 14 14:30:37 2024"
+[1]      1 615541
+[1] "loading regression model Wed Aug 14 14:30:55 2024"
+[1] "saving new results Wed Aug 14 14:30:56 2024"
+rm: cannot remove '/home/radv/scaneva/my-scratch/brainageEuropad/EuroPAD_T1s/logs/sub-EPAD03023620_ses-03_T1w_log.txt': No such file or directory

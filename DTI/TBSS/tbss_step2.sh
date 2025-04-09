@@ -2,9 +2,9 @@
 
 # after having run the first step, you should go through the index.html file created and check whether the images are good or have artefacts/other problems. 
 #save the IDs that you wish to exclude from the analyiss in "QC_excluded.txt"
-basedir=/home/radv/llorenzini/my-rdisk/RNG/Projects/ExploreASL/EPAD/
+#basedir=/home/radv/llorenzini/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/
 #fadir=${basedir}/derivatives/qsirecon
-tbssdir=${basedir}/derivatives/TBSS
+tbssdir=/data/radv/radG/RAD/share/EUROPAD_TBSS
 MD=0
 
 # for now we are not being very strict, lets evaluate what is the effect on the final skeleton
