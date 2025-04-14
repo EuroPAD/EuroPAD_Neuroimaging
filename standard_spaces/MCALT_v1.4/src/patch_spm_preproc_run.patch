@@ -1,0 +1,54 @@
+This file can be used to patch the spm_preproc_run.m file included with SPM12 to allow the 'resume' functionality needed by MCALT_spm12_segment.m. See README.txt and LICENSE.txt included with MCALT for more information.
+diff a/spm_preproc_run.m b/spm_preproc_run.m
+--- a/spm_preproc_run.m
++++ b/spm_preproc_run.m
+@@ -30,6 +30,9 @@ function varargout = spm_preproc_run(job,action)
+ % John Ashburner
+ % $Id: spm_preproc_run.m 6365 2015-03-06 18:59:55Z guillaume $
+ 
++% Modified using MCALT patch to add 'resume' option. See
++% https://www.nitrc.org/projects/mcalt/ for details
++
+ 
+ SVNid = '$Rev: 6365 $';
+ 
+@@ -38,8 +41,13 @@ if nargin == 1, action = 'run'; end
+ switch lower(action)
+     case 'run'
+         spm('FnBanner',mfilename,SVNid);
+-        varargout{1} = run_job(job);
++        varargout{1} = run_job(job,0);
+         fprintf('%-40s: %30s\n','Completed',spm('time'))                %-#
++    case 'resume'
++        spm('FnBanner',mfilename,SVNid);
++        disp('Resuming from existing _seg8.mat');
++        varargout{1} = run_job(job,1);
++        fprintf('%-40s: %30s\n','Completed',spm('time'))    
+     case 'check'
+         varargout{1} = check_job(job);
+     case 'vfiles'
+@@ -54,7 +62,7 @@ end
+ %==========================================================================
+ % Run
+ %==========================================================================
+-function vout = run_job(job)
++function vout = run_job(job,optResume)
+ 
+ vout = vout_job(job);
+ tpm  = strvcat(cat(1,job.tissue(:).tpm));
+@@ -72,7 +80,14 @@ if nit > 1
+     orig_priors = tpm;
+ end
+ 
+-for iter=1:nit
++startIter = 1;
++if(optResume==1)
++    startIter = 2;
++    nit = nit + 1;
++end
++    
++
++for iter=startIter:nit
+     for subj=1:numel(job.channel(1).vols)
+         fprintf('Segment %s\n',spm_file(job.channel(1).vols{subj},...
+             'link','spm_image(''display'',''%s'')'));

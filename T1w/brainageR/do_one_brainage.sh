@@ -9,7 +9,7 @@
 #SBATCH --nice=100                      # be nice
 #SBATCH --partition=luna-short
 
-
+## This script runs brainageR for one T1 file, which should be given as an input, together with the derivativefolder (output folder) and the processing folder
 
 subjfile=$1
 derivativesdir=$2

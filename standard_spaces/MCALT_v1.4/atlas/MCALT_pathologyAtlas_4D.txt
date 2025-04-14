@@ -1,0 +1,9 @@
+0 UNKNOWN
+1 AntCing
+2 Motor
+3 Parietal
+4 PostCing
+5 PostHippo
+6 SMFG
+7 Temporal
+8 Visual

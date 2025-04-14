@@ -20,7 +20,7 @@ def main():
     parser.add_argument ( "fmrifile", help="preprocessed fMRI from fmriprep")
     parser.add_argument ( "-a", "--atlasfile", help="brain parcellation in the same space of fMRI")
     parser.add_argument ( "-n", "--atlasname", help="atlas name")
-    args = parser.parse_args()    
+    args = parser.parse_args()   
     
     # Define variables
     fmri_filename = args.fmrifile

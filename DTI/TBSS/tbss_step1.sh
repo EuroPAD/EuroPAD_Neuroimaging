@@ -12,15 +12,8 @@ fi
 
 
 
-#	crossdir=/home/jmhendriks/lood_storage/divi/Projects/ExploreASL/EPAD/projects/longitudinal_MRI/cross-sectional_processing
-#	crossdatadir=$crossdir/data
-#	crossdtidir=$crossdir/analysis/TBSS
-#	inputdir=/home/jmhendriks/lood_storage/divi/Projects/ExploreASL/EPAD/projects/longitudinal_MRI/inputs
-#	longdatadir=$longdir/data
-#	longdtidir=$longdir/analysis/TBSS
 
 #Find FA files 
-# Only baseline!!
 if [[ $mode == "qsirecon" ]]; then 
 	for fafile in $(ls $fadir/sub-*/ses*/dwi/*desc-dti_fa_gqiscalar.nii.gz); do
 

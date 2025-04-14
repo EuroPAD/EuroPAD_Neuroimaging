@@ -1,0 +1,16 @@
+3 Deep_Grey_and_White_L
+4 Deep_Grey_and_White_R
+5 Anterior_Corpus_Callosum
+6 Posterior_Corpus_Callosum
+7 Temporal_L
+8 Temporal_R
+9 Frontal_L
+10 Frontal_R
+11 Occipital_L
+12 Occipital_R
+17 Parietal_R
+18 Parietal_L
+21 Brainstem
+22 Cerebellum
+23 Insula_L
+24 Insula_R

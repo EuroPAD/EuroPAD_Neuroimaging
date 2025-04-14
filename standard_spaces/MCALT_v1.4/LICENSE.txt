@@ -1,0 +1,18 @@
+
+Copyright 2017-2020 Mayo Foundation for Medical Education and Research. This 
+software is accepted by users "as is" and without warranties or guarantees of 
+any kind. This software was designed to be used only for research purposes, and 
+it is made freely available only for non-commercial research use. Contact the 
+authors to obtain information on purchasing a separate license for commercial 
+use. Clinical applications are not recommended, and this software has NOT been 
+evaluated by the United States FDA for any clinical use.  None of the authors 
+or their institutions make or imply any warranty of usefulness of this software 
+for any particular purpose, and do not assume any liability for damages, 
+incidental or otherwise, caused by the installation or use of this software.  
+If these conditions are not acceptable to you or your institution, or are not 
+enforceable by the laws of your jurisdiction, you do not have the right use 
+this software.
+Image files (.nii, .png, etc.) and text files contained in this distribution 
+are licensed using CC-by-NC-SAv4.0.
+Computer program source code contained in this distribution is licensed using 
+GPLv3.

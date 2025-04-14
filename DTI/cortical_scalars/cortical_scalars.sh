@@ -1,4 +1,10 @@
 #!/bin/bash
+## this script computes DTI scalars (FA and MD) within gray matter regions. 
+# Settings for this script, including directories and atlas definition, is done in a separate script called "set_paths.sh", which is run at the beginnign of this one. 
+# to change options, you need to change the set_paths.sh script. 
+# the atlas is multiplied with the GM segmentation from freesurfer, and FA and MD are then averaged within each region.  
+
+
 # Bash Dependencies:
 module load ANTs/2.4.1
 module load GCC/9.3.0 OpenMPI/4.0.3 MRtrix/3.0.3-Python-3.8.2

@@ -1,0 +1,3 @@
+standard_spaces/MCALT_v1.4/MCALT_T1_05mm.nii.gz
+standard_spaces/MCALT_v1.4/MNI_to_MCALT_ANTs_parameters/MNI152_to_MCALT_Warp.nii.gz
+standard_spaces/MCALT_v1.4/MNI_to_MCALT_ANTs_parameters/MNI152_to_MCALT_InverseWarp.nii.gz

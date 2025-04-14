@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# given a list of inputs, this script prepare and call the do_one_brainage.sh script to run the brainageR function
+
 ## Setting stage
 export PATH="/home/radv/scaneva/my-scratch/brainageR/software:$PATH"
 BIDSdir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD
