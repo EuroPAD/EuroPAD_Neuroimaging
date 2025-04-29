@@ -3,8 +3,10 @@ library(dplyr)
 
 rm(list = ls(all = T))
 
-atlasnames = read.delim("/home/radv/lpieperhoff/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/code/multimodal_MRI_processing/fMRI/fastECM/atlases/Schaefer2018_100Parcels_17Networks_order.txt", header = F)[,2]
-filelist = read.delim("/home/radv/lpieperhoff/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/derivatives/fastECM/list_fastECMstats.txt", header = F)
+atlasnames <- read.csv("/home/radv/parunachalam/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/code/multimodal_MRI_processing/atlases/Schaefer2018/Centroid_coordinates/Schaefer2018_100Parcels_17Networks_order_FSLMNI152_2mm.Centroid_RAS.csv")
+atlasnames <- atlasnames[,2]
+
+filelist = read.delim("/home/radv/parunachalam/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/derivatives/fastECM/list_fastECMstats.txt", header = F)
 colnames(filelist) = "filename"
 
 metrics = rownames(as.data.frame(data[[1]]))
@@ -60,7 +62,8 @@ for (file in filelist$filename) {
   }
 }
 
-atlasnames = read.delim("/home/radv/lpieperhoff/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/code/multimodal_MRI_processing/fMRI/fastECM/atlases/Schaefer2018_100Parcels_17Networks_order.txt", header = F)[,2]
+atlasnames <- read.csv("/home/radv/parunachalam/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/code/multimodal_MRI_processing/atlases/Schaefer2018/Centroid_coordinates/Schaefer2018_100Parcels_17Networks_order_FSLMNI152_2mm.Centroid_RAS.csv")
+atlasnames <- atlasnames[,2]
 colnames(fastECM) = atlasnames
 
 for (row in rownames(fastECM)) {

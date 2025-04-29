@@ -11,7 +11,7 @@ user=$(whoami)
 derivativesdir=/home/radv/$user/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/derivatives
 fmriprepdir=${derivativesdir}/fmriprep-v23.0.1
 outputfold=${derivativesdir}/fastECM
-atlas=/home/radv/$user/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/code/multimodal_MRI_processing/fMRI/fastECM/atlases/Schaefer2018_100Parcels_17Networks_order_FSLMNI152_2mm_LR.nii.gz #atlas in neurological space for consistency
+atlas=/home/radv/$user/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/code/multimodal_MRI_processing/atlases/Schaefer2018_100Parcels_17Networks_order_FSLMNI152_2mm_LR.nii.gz #atlas in neurological space for consistency
 mask=/home/radv/$user/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/code/multimodal_MRI_processing/fMRI/fastECM/masks/groupmask_label-GM_probseg_MNI152NLin6Asym_0.2_thr_bin.nii.gz # apriori mask  we should make our own
 fastECMdir=/home/radv/$user/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/code/multimodal_MRI_processing/fMRI/fastECM/bias/matlab/fastECM
 

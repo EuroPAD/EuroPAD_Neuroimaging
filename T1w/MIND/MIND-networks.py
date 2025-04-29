@@ -10,7 +10,7 @@ from os.path import join as opj
 from os.path import basename
 import argparse
 import sys
-sys.path.insert(1, '/home/radv/mtranfa/Documents/MIND')
+sys.path.insert(1, '/home/radv/parunachalam/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/code/multimodal_MRI_processing/T1w/MIND/MIND')
 from MIND import compute_MIND
 
 def main():
@@ -29,11 +29,13 @@ def main():
     features = ['CT','MC','Vol','SD','SA'] 
 
     ## Select which parcellation to use. This has been tested on Desikan Killiany (DK), HCP-Glasser, DK-308 and DK-318 parcellations.
-    parcellation = 'aparc' 
+    parser.add_argument("--atlas", required=True, help="Name of parcellation atlas (e.g. Schaefer2018_100Parcels_7Networks_order)")
+    ...
+    parcellation = args.atlas
 
     ## Returns a dataframe of regions X regions containing the final MIND network.
     MIND = compute_MIND(path_to_surf_dir, features, parcellation) 
-    matrix_filename = "".join([basename(path_to_surf_dir),'_MIND-aparc.csv']);
+    matrix_filename = f"{basename(path_to_surf_dir)}_MIND-{args.atlas}.csv"
     MIND.to_csv(opj(output_dir, matrix_filename), sep=',', header=True, index=True)
     
 # if nothing else has been done yet, call main()    

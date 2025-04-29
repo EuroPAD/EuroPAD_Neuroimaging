@@ -16,7 +16,7 @@ fixeldir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EPAD/deriv
 scriptsdir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EPAD/scripts/multimodal_MRI_processing/DTI/FixelAnalysis/
 QCdir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EPAD/scripts/multimodal_MRI_processing/DTI/FixelAnalysis/QC
 singularity=/opt/aumc-containers/singularity/qsiprep/qsiprep-0.19.1.sif
-scratchdir=/scratch/radv/llorenzini/FixelCSD  # where to run the csd
+scratchdir=/scratch/radv/$(whoami)/FixelCSD  # where to run the csd
 
 
 ###### Create a list of subjects that need the FOD normalization
@@ -37,7 +37,6 @@ if [ ! -f ${qsirecdir}/${subname}/$sesname/dwi/${subname}_${sesname}_group_avera
 fi; 
 done
 done
-
 
 
 ##### Exclude from the list the one from the visual QC 

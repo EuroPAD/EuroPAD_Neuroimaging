@@ -9,8 +9,9 @@
 #SBATCH --partition=luna-long  # luna-short is default, but use luna-long if time exceeds 7h
 #SBATCH --nice=1000
 
-## Bash script to extract suvr values and voxel count from atlas-defined ROIs
+## BASH script to extract suvr values and voxel count from atlas-defined ROIs
 
+# BASH Dependencies:
 module load fsl/6.0.7.6
 
 projfold=/data/radv/radG/RAD/share/AMYPAD #amypad folder

@@ -14,33 +14,35 @@ module load fsl
 
 fmriprepdir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/derivatives/fmriprep-v23.0.1
 
-mkdir -p $fmriprepdir/qc_gifs
+mkdir -p "$fmriprepdir/qc_gifs"
 
-for sub in `ls -d $fmriprepdir/sub-* | grep -v .html`; do
-	subject=$(basename $sub);
-	for ses in `ls -d $sub/ses*`; do
-		session=$(basename $ses);
-		if [ -f $fmriprepdir/qc_gifs/${subject}_${session}_sagittal.gif ]; then # skip QC generation if already exists
-			printf "\nSkipping QC for ${subject}_${session}...\n";
+for sub in "$fmriprepdir"/sub-*; do
+	[[ -d "$sub" && "$sub" != *.html ]] || continue
+	subject=$(basename "$sub")
+	for ses in "$sub"/ses*; do
+		[[ -d "$ses" ]] || continue
+		session=$(basename "$ses")
+		if [ -f "$fmriprepdir/qc_gifs/${subject}_${session}_sagittal.gif" ]; then # skip QC generation if already exists
+			printf "\nSkipping QC for %s_%s...\n" "$subject" "$session"
 		else
-			printf "\nCreating QC for ${subject}_${session}...\n"
-			fmrifile=$ses/func/${subject}_${session}_task-rest_space-MNI152NLin6Asym_desc-smoothAROMAnonaggr_bold.nii.gz
-			num_volumes=$(fslnvols $fmrifile)
-			increment=$(($num_volumes / 10))
+			printf "\nCreating QC for %s_%s...\n" "$subject" "$session"
+			fmrifile="$ses/func/${subject}_${session}_task-rest_space-MNI152NLin6Asym_desc-smoothAROMAnonaggr_bold.nii.gz"
+			num_volumes=$(fslnvols "$fmrifile")
+			increment=$((num_volumes / 10))
 		
 			for i in $(seq 0 10); do # for 10 frames;
-				printf "  Rendering ${i}/10...\r"
-				j=$((i * $increment))
-				output_frame=$(printf "$fmriprepdir/qc_gifs/sagittal_frame_%04d.png" $i); # render 10 saggital lightboxes
-				fsleyes render -of $output_frame --scene lightbox --zrange 0.0 1.0 --zaxis 0 --hideCursor $fmrifile --volume $j;
-				output_frame=$(printf "$fmriprepdir/qc_gifs/axial_frame_%04d.png" $i); # & render 10 axial lightboxes
-				fsleyes render -of $output_frame --scene lightbox --zrange 0.0 1.0 --zaxis 2 --hideCursor $fmrifile --volume $j;
+				printf "  Rendering %s/10...\r" "$i"
+				j=$((i * increment))
+				output_frame=$(printf "%s/qc_gifs/sagittal_frame_%04d.png" "$fmriprepdir" "$i") # render 10 sagittal lightboxes
+				fsleyes render -of "$output_frame" --scene lightbox --zrange 0.0 1.0 --zaxis 0 --hideCursor "$fmrifile" --volume "$j"
+				output_frame=$(printf "%s/qc_gifs/axial_frame_%04d.png" "$fmriprepdir" "$i") # & render 10 axial lightboxes
+				fsleyes render -of "$output_frame" --scene lightbox --zrange 0.0 1.0 --zaxis 2 --hideCursor "$fmrifile" --volume "$j"
 			done
 
 			# concatenate the lightboxes into .gif files
 			printf "\n  Concatenating frames...\n"
-			convert -delay 5 -loop 0 $fmriprepdir/qc_gifs/sagittal_frame_*.png $fmriprepdir/qc_gifs/${subject}_${session}_sagittal.gif
-			convert -delay 5 -loop 0 $fmriprepdir/qc_gifs/axial_frame_*.png $fmriprepdir/qc_gifs/${subject}_${session}_axial.gif
+			convert -delay 5 -loop 0 "$fmriprepdir/qc_gifs/sagittal_frame_*.png" "$fmriprepdir/qc_gifs/${subject}_${session}_sagittal.gif"
+			convert -delay 5 -loop 0 "$fmriprepdir/qc_gifs/axial_frame_*.png" "$fmriprepdir/qc_gifs/${subject}_${session}_axial.gif"
 		fi
 	done
 done

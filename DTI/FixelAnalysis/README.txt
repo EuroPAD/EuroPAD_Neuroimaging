@@ -1,21 +1,38 @@
-To obtain fixel metrics follow these steps
+## Fixel-Based Analysis ##
 
-1)make_fixels_main_script.sh is the first one to run (you have to split it in smaller scripts to slurm it. In old there are already some scripts that I used)
+This folder provides the scripts to run the full fixel-based analysis pipeline.
 
-2)make_design_matrix.R to create the contrast and design matrix files
-
-3)make_analysis_whole_brain.sh is the last one,modify it according to your contrast
+# To obtain fixel metrics follow the steps numbered from 01 to 14.
 
 
+Additionally:
 
-If you want to obtain fixel metrics at the tract level
+In the fixel_statistics folder you will find example code to run fixel level statistics in selected WM bundles.
 
-1)make_fixels_main_script.sh 
 
-2)make_tract_masks_tractseg.sh
+In the auxilliary_functions folder you will find :
 
-3)make_design_matrix.R
+- scripts to run some of the main steps as arrays and other auxilliary functions
 
-4a)If you want the mean across tracts use extract_tracts_fixels_average.sh 
+- scripts for QC (make_fod_qc_images.sh; make_mask_qc_images.sh)
 
-4b)otherwise use call_make_analysis_tractwise.sh and make_analysis_tractwise.sh to run the analysis at the fixel level tractwise and then extract the mean across the significantly different fixels
+- a script to obtain bundle level masks using TractSeg (make_tract_masks_tractseg.sh)
+
+- a script to merge selected WM bundles (create_merged_WM_tck_files.sh)
+
+- scripts to extract bundle level and whole brain average fixel metrics (extract_tract_fixels_average.sh extract_whole_brain_fixels_average.sh)
+
+- a script to assing significant fixels to WM bundles after running fixel statistics at the whole brain level (assign_fixels_to_single_WM_bundles.sh)
+
+- a script to display significant fixels as streamlines (display_results_using_streamlines_for_loop.sh)
+
+- scripts to compute effect size and corrected p-values maps (compute_effect_size_maps.sh and compute_pval_for_5k_permutations.sh)
+
+- a script to perform fixel-to-fixel connectivity and smoothing at the bundle level
+
+- other foldes containing example scripts to run fixel statistics in R using confixel (confixel and Rscripts - see https://github.com/PennLINC/ConFixel for further details)
+
+
+The longitudinal pipeline folder is under construction.
+
+ 
