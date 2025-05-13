@@ -5,7 +5,7 @@
 
 module load fsl
 
-mkdir gif
+mkdir -p gif
 
 # file can be a variable from a for loop for whole dataset
 file=sub-EPAD04024628_ses-01_task-rest_space-MNI152NLin6Asym_desc-smoothAROMAnonaggr_bold.nii.gz

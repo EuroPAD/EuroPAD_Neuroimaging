@@ -16,6 +16,7 @@ fixeldir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/de
 
 
 #### Make necessary directories if they do not exist #### 
+
 # make directory to store data 
 if [[ ! -d ${fixeldir}/subjects ]]; then 
 	mkdir ${fixeldir}/subjects; 

@@ -2,7 +2,7 @@
 #SBATCH --job-name=fmri_postproc
 #SBATCH --output=logs/fmri_postproc_%A_%a.out
 #SBATCH --error=logs/fmri_postproc_%A_%a.err
-#SBATCH --array=811-2751%50  # ← based on total sessions
+#SBATCH --array=1751-2751%50  # ← based on total sessions
 #SBATCH --nodes=1
 #SBATCH --tasks-per-node=1
 #SBATCH --cpus-per-task=2

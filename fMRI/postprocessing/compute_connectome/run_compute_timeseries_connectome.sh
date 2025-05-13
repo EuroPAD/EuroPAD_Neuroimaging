@@ -19,7 +19,7 @@ ATLAS_NAME="Schaefer2018_100Parcels_17Networks_order_FSLMNI152_2mm"
 SCRIPT_PATH="$BASE_DIR/code/multimodal_MRI_processing/fMRI/postprocessing/compute_connectome/compute_timeseries_connectome.py"
 # ============================== #
 
-for SUBJ_DIR in $(ls -d $BASE_DIR/derivatives/fmriprep-v23.0.1/sub-*/ses-*/func/ | grep -v "\.html" | head -1781); do
+for SUBJ_DIR in $(ls -d $BASE_DIR/derivatives/fmriprep-v23.0.1/sub-*/ses-*/func/ | grep -v "\.html"); do
   BOLD_FILE=$(find "$SUBJ_DIR" -name "*task-rest_space-MNI152NLin6Asym_desc-preproc_bold.nii.gz" | head -n 1)
   CONF_FILE=$(find "$SUBJ_DIR" -name "*desc-confounds_timeseries.tsv" | head -n 1)
   
@@ -32,7 +32,7 @@ for SUBJ_DIR in $(ls -d $BASE_DIR/derivatives/fmriprep-v23.0.1/sub-*/ses-*/func/
   SUBJ_ID=$(basename $(dirname $(dirname $SUBJ_DIR)))  
   SES_ID=$(basename $(dirname $SUBJ_DIR))              
 
-  OUT_DIR="$DERIV_DIR/$SUBJ_ID/$SES_ID"f
+  OUT_DIR="$DERIV_DIR/$SUBJ_ID/$SES_ID"
 
   mkdir -p "$OUT_DIR"
 

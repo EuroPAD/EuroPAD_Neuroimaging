@@ -11,11 +11,11 @@
 module load  GCC/9.3.0  OpenMPI/4.0.3 MRtrix/3.0.3-Python-3.8.2
 
 # settings
-qsirecdir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EPAD/derivatives/qsirecon #original qsirecon output
-qsiprepdir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EPAD/derivatives/qsiprep #original qsiprep output
-fixeldir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EPAD/derivatives/DTI_fixels  #outpt fixel directory
-scriptsdir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EPAD/scripts/multimodal_MRI_processing/DTI/FixelAnalysis/
-QCdir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EPAD/scripts/multimodal_MRI_processing/DTI/FixelAnalysis/QC
+qsirecdir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/derivatives/qsirecon-v0.19.0 #original qsirecon output
+qsiprepdir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/derivatives/qsiprep-v0.19.0 #original qsiprep output
+fixeldir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/derivatives/fixel_qsirecon_v0.19.0 #outpt fixel directory
+scriptsdir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/code/multimodal_MRI_processing/DTI/FixelAnalysis/
+QCdir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/code/multimodal_MRI_processing/DTI/FixelAnalysis/QC
 singularity=/opt/aumc-containers/singularity/qsiprep/qsiprep-0.19.1.sif
 scratchdir=/scratch/radv/llorenzini/FixelCSD  # where to run the csd
 
@@ -82,7 +82,7 @@ cp ${qsiprepdir}/$subject/$session/dwi/${subject}_${session}_mask_upsampled.mif 
 cd .
 sbatch auxiliary_functions/run_sst3_csd.sh $singularity $scratchdir $subject $session $qsirecdir
 
-while [[ $(ls $scratchdir/ | wc -l) = 25 ]]; do
+while [[ $(ls $scratchdir/ | wc -l) = 15 ]]; do
 
 sleep 10;
 

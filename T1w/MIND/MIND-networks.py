@@ -19,6 +19,8 @@ def main():
     parser = argparse.ArgumentParser(description="Compute MIND network from freesurfer reconstruction")
     parser.add_argument ( "freesurfer_dir", help="absolute path of freesurfer folder containing all standard output directories")
     parser.add_argument ( "-o", "--output", help="output directory")
+    ## Select which parcellation to use. This has been tested on Desikan Killiany (DK), HCP-Glasser, DK-308 and DK-318 parcellations.
+    parser.add_argument("--atlas", default="Schaefer2018_100Parcels_7Networks_order", help="Name of parcellation atlas")
     args = parser.parse_args()
 
     # Define variables
@@ -28,8 +30,6 @@ def main():
     ## Specify features to include in MIND calculation. Any combination of the following five features are currently supported.
     features = ['CT','MC','Vol','SD','SA'] 
 
-    ## Select which parcellation to use. This has been tested on Desikan Killiany (DK), HCP-Glasser, DK-308 and DK-318 parcellations.
-    parser.add_argument("--atlas", required=True, help="Name of parcellation atlas (e.g. Schaefer2018_100Parcels_7Networks_order)")
     ...
     parcellation = args.atlas
 

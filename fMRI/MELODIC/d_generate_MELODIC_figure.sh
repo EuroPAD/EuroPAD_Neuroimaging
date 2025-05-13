@@ -12,7 +12,7 @@ dim=9
 mkdir -p $melodicdir/presentation
 
 for i in `seq 1 $dim`; do # for component 1 to n
-	# upscale zstat image
+	# upscale zstat image or probmap image
 	#flirt -in $melodicdir/stats/probmap_${i}.nii.gz -ref $FSLDIR/data/standard/MNI152_T1_0.5mm -applyxfm -usesqform -out $melodicdir/presentation/probmap_${i}_highres.nii.gz; 
 	flirt -in $melodicdir/stats/thresh_zstat$i.nii.gz -ref $FSLDIR/data/standard/MNI152_T1_0.5mm -applyxfm -usesqform -out $melodicdir/presentation/thresh_zstat${i}_highres.nii.gz; 
 	# overlay on high-res MNI

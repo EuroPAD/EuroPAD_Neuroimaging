@@ -18,10 +18,10 @@ melodicversion=$(melodic -V | cut -d " " -f 3)
 echo "  with MELODIC version $melodicversion..."
 
 # Variables
-BIDS=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD
-fmriprep=$BIDS/fmriprep-v23.0.1 
-melodic=$BIDS/melodic-v${melodicversion}
-keyfile=$BIDS/code/AMYPAD-PNHS_all_withEPADids_20240814.csv
+studydir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD
+fmriprep=$studydir/fmriprep-v23.0.1 
+melodic=$studydir/melodic-v${melodicversion}
+keyfile=$studydir/code/AMYPAD-PNHS_all_withEPADids_20240814.csv
 scratch=/home/radv/$(whoami)/my-scratch
 
 # Creating Derivative Directory

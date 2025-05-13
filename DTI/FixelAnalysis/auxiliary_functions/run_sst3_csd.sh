@@ -5,6 +5,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G             # max memory per node
 #SBATCH -t 8:0:0
+#SBATCH --output=/home/radv/llorenzini/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/projects/amyloid_bundles/slurm_outputs/%x_%j.out
 #SBATCH --partition=luna-short  # rng-short is default, but use rng-long if time exceeds 7h
 #SBATCH --nice=1000                     # be nice
 

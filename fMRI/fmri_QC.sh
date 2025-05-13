@@ -1,18 +1,19 @@
 #!/bin/bash
 #SBATCH --job-name=fmri_qc
-#SBATCH --nodes=1
-#SBATCH --tasks-per-node=1
 #SBATCH --cpus-per-task=2
-#SBATCH --mem=4G              # max memory per node
-# Request 72 hours run time
-#SBATCH -t 72:00:00
-#SBATCH --partition=luna-long  # rng-short is default, but use rng-long if time exceeds 7h
+#SBATCH --mem=4G              	# max memory per node
+#SBATCH -t 72:00:00				# hh:mm:ss
+#SBATCH --partition=luna-long  	# luna-short is default, use luna-long if time is expected to exceed 7h
 
 # fsleyes render "scene" can be ( ortho lightbox 3d ); 3d creates the 3d brain which can be rotated with --cameraRotation x y z
 
+# dependencies
 module load fsl
 
-fmriprepdir=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD/derivatives/fmriprep-v23.0.1
+# variables
+studydir=/home/radv/$USER/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD
+fmriprepdir=$studydir/derivatives/fmriprep-v23.0.1
+postprocess_file=task-rest_space-MNI152NLin6Asym_desc-smoothAROMAnonaggr_bold.nii.gz
 
 mkdir -p "$fmriprepdir/qc_gifs"
 
@@ -26,7 +27,7 @@ for sub in "$fmriprepdir"/sub-*; do
 			printf "\nSkipping QC for %s_%s...\n" "$subject" "$session"
 		else
 			printf "\nCreating QC for %s_%s...\n" "$subject" "$session"
-			fmrifile="$ses/func/${subject}_${session}_task-rest_space-MNI152NLin6Asym_desc-smoothAROMAnonaggr_bold.nii.gz"
+			fmrifile="$ses/func/${subject}_${session}_${postprocess_file}"
 			num_volumes=$(fslnvols "$fmrifile")
 			increment=$((num_volumes / 10))
 		

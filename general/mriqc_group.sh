@@ -7,14 +7,9 @@
 #SBATCH --mem=16G
 #SBATCH --partition=luna-long
 
-
-
-
-
 # Group-level run of MRIQC on already computed subject-level data
 
 # variables
-
 mriqc=/opt/aumc-containers/singularity/mriqc/mriqc-24.0.0.sif
 BIDS=/home/radv/$(whoami)/my-rdisk/r-divi/RNG/Projects/ExploreASL/EuroPAD
 rawdata=${BIDS}/rawdata
@@ -33,13 +28,12 @@ rm $derivativestmp/*html # keep only the directories with .json files
 
 # clean wrong subs from derivatives
 for sub in `ls -d $derivativestmp/sub-*`; do
-subject=$(basename $sub);
+    subject=$(basename $sub);
 
-if [[ ! -d $rawdata/$subject ]]; then
-rm -rf $sub;
-fi
+    if [[ ! -d $rawdata/$subject ]]; then
+     rm -rf $sub;
+    fi
 done
-
 
 # MRIQC call
 singularity run --cleanenv $mriqc ${rawdata}/ ${derivativestmp}/ group --work-dir /scratch/radv/lpieperhoff/mriqc --no-sub; 
